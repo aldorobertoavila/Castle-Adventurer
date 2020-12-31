@@ -10,7 +10,9 @@ public class Player : MonoBehaviour
     public Animator animator;
 
     // Constants
-    public float speed = 4.5F;
+    public float crouchingSpeed = 1.75F;
+    public float runningSpeed = 4.5F;
+    public float walkingSpeed = 2.25F;
 
     // Variables
     public Vector2 facing;
@@ -36,13 +38,24 @@ public class Player : MonoBehaviour
     public void Move(InputAction.CallbackContext ctx)
     {
         this.motion = ctx.ReadValue<Vector2>();
+
+        animator.SetBool("Moving", !ctx.canceled);
     }
 
     public void Run(InputAction.CallbackContext ctx)
     {
-        animator.SetBool("Running", !ctx.canceled);
-
         this.Move(ctx);
+
+        if(ctx.performed && !animator.GetBool("Crouching"))
+            animator.SetBool("Running", true);
+        else if(ctx.canceled)
+            animator.SetBool("Running", false);
+    }
+
+    public void Slide(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed && animator.GetBool("Running"))
+            animator.SetTrigger("Slide");
     }
 
     void Start()
@@ -50,10 +63,21 @@ public class Player : MonoBehaviour
         this.facing = new Vector2(1, 0);
     }
 
+    float GetSpeed()
+    {
+
+        if (animator.GetBool("Running"))
+            return this.runningSpeed;
+        else if (animator.GetBool("Crouching"))
+            return this.crouchingSpeed;
+        else
+            return this.walkingSpeed;
+    
+    }
+
     void FixedUpdate()
     {
-        if(!this.animator.GetBool("Crouching"))
-            transform.Translate(this.motion * Time.fixedDeltaTime * this.speed, Space.World);
+        transform.Translate(this.motion * Time.fixedDeltaTime * this.GetSpeed(), Space.World);
     }
 
 }
