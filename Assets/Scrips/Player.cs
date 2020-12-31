@@ -54,6 +54,12 @@ public class Player : MonoBehaviour
 
     public void QuickAttack(InputAction.CallbackContext ctx)
     {
+        if (ctx.performed) {
+            animator.SetTrigger("Unsheathe");
+
+            // TODO Reset Trigger of Quick Attack when no entity can be hit
+            animator.SetTrigger("Quick Attack");
+        }
 
     }
 
