@@ -18,6 +18,11 @@ public class Player : MonoBehaviour
     public Vector2 facing;
     public Vector2 motion;
 
+    public void AerialAttack(InputAction.CallbackContext ctx)
+    {
+
+    }
+
     public void Crouch(InputAction.CallbackContext ctx)
     {
         animator.SetBool("Crouching", !ctx.canceled);
@@ -35,11 +40,21 @@ public class Player : MonoBehaviour
 
     }
 
+    public void HeavyAttack(InputAction.CallbackContext ctx)
+    {
+
+    }
+
     public void Move(InputAction.CallbackContext ctx)
     {
         this.motion = ctx.ReadValue<Vector2>();
 
         animator.SetBool("Moving", !ctx.canceled);
+    }
+
+    public void QuickAttack(InputAction.CallbackContext ctx)
+    {
+
     }
 
     public void Run(InputAction.CallbackContext ctx)
@@ -50,6 +65,11 @@ public class Player : MonoBehaviour
             animator.SetBool("Running", true);
         else if(ctx.canceled)
             animator.SetBool("Running", false);
+    }
+
+    public void SpecialAttack(InputAction.CallbackContext ctx)
+    {
+
     }
 
     public void Slide(InputAction.CallbackContext ctx)
