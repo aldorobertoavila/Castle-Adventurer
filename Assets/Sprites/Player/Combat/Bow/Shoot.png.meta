@@ -1,52 +1,52 @@
 fileFormatVersion: 2
-guid: 8346a18a7857810418259bbda5dd4197
+guid: 55580eded95b7e143be0e75a4d243a34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8066505459069020276
-    second: adventurer-bow-combat_0
+      213: -8809470994601461542
+    second: Shoot_0
   - first:
-      213: -6755321448604121257
-    second: adventurer-bow-combat_1
+      213: 6622495038012311501
+    second: Shoot_1
   - first:
-      213: 4038948312905037207
-    second: adventurer-bow-combat_2
+      213: -8576067140151796039
+    second: Shoot_2
   - first:
-      213: -8755296090568295912
-    second: adventurer-bow-combat_3
+      213: 6557144364770323111
+    second: Shoot_3
   - first:
-      213: 7074435921673318603
-    second: adventurer-bow-combat_4
+      213: 6667267355182126414
+    second: Shoot_4
   - first:
-      213: 1471566036107471948
-    second: adventurer-bow-combat_5
+      213: 2843881305658645998
+    second: Shoot_5
   - first:
-      213: -1558461411986191380
-    second: adventurer-bow-combat_6
+      213: 3663916183599854358
+    second: Shoot_6
   - first:
-      213: -6307875194167768805
-    second: adventurer-bow-combat_7
+      213: 5600082332713294208
+    second: Shoot_7
   - first:
-      213: 2218698980656031835
-    second: adventurer-bow-combat_8
+      213: -865582698295523540
+    second: Shoot_8
   - first:
-      213: 5521071008193187151
-    second: adventurer-bow-combat_9
+      213: 2051688448441928645
+    second: Shoot_9
   - first:
-      213: -4547883796926173261
-    second: adventurer-bow-combat_10
+      213: -1677845105422380016
+    second: Shoot_10
   - first:
-      213: -3979316695747140684
-    second: adventurer-bow-combat_11
+      213: 6480618453336352662
+    second: Shoot_11
   - first:
-      213: 3603981511851291782
-    second: adventurer-bow-combat_12
+      213: 3740866258076076003
+    second: Shoot_12
   - first:
-      213: -7784503146938597754
-    second: adventurer-bow-combat_13
+      213: -4006568047351726322
+    second: Shoot_13
   - first:
-      213: 4072160477455525800
-    second: adventurer-bow-combat_14
+      213: -4075081218630430060
+    second: Shoot_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -144,238 +144,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: adventurer-bow-combat_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 111
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c87117de5040e0090800000000000000
-      internalID: -8066505459069020276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_1
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 111
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 757cf580fe64042a0800000000000000
-      internalID: -6755321448604121257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_2
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 111
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7953ed0671a3d0830800000000000000
-      internalID: 4038948312905037207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_3
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 111
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81a7f4ad790fe7680800000000000000
-      internalID: -8755296090568295912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 74
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc0f9912df17d2260800000000000000
-      internalID: 7074435921673318603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_5
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 74
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4c27bd538d0c6410800000000000000
-      internalID: 1471566036107471948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_6
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 74
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cebc8665a9b3f5ae0800000000000000
-      internalID: -1558461411986191380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_7
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 74
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b19c1247eece578a0800000000000000
-      internalID: -6307875194167768805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_9
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 37
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4d001f74d8ce9c40800000000000000
-      internalID: 5521071008193187151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_10
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 37
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bfe57c48cba2e0c0800000000000000
-      internalID: -4547883796926173261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_11
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 37
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b3e53d6c80a6c8c0800000000000000
-      internalID: -3979316695747140684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: adventurer-bow-combat_12
+      name: Shoot_0
       rect:
         serializedVersion: 2
         x: 0
@@ -389,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 684b8fe171ae30230800000000000000
-      internalID: 3603981511851291782
+      spriteID: ad83ca31ec87eb580800000000000000
+      internalID: -8809470994601461542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-bow-combat_13
+      name: Shoot_1
       rect:
         serializedVersion: 2
         x: 50
@@ -410,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68e70d5c1a3e7f390800000000000000
-      internalID: -7784503146938597754
+      spriteID: dc7c28b4624d7eb50800000000000000
+      internalID: 6622495038012311501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-bow-combat_14
+      name: Shoot_2
       rect:
         serializedVersion: 2
         x: 100
@@ -431,18 +200,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a72f170168338830800000000000000
-      internalID: 4072160477455525800
+      spriteID: 9be1a5dbf50bbf880800000000000000
+      internalID: -8576067140151796039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-bow-combat_8
+      name: Shoot_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 37
+        x: 150
+        y: 0
         width: 50
         height: 37
       alignment: 0
@@ -452,8 +221,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b58268db7f66ace10800000000000000
-      internalID: 2218698980656031835
+      spriteID: 7aae61bfe08affa50800000000000000
+      internalID: 6557144364770323111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e455038b554e68c50800000000000000
+      internalID: 6667267355182126414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed582fdafe777720800000000000000
+      internalID: 2843881305658645998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61336425b58d8d230800000000000000
+      internalID: 3663916183599854358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089115a063d77bd40800000000000000
+      internalID: 5600082332713294208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c270f583f15dcf3f0800000000000000
+      internalID: -865582698295523540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb472706cf097c10800000000000000
+      internalID: 2051688448441928645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014db2724c817b8e0800000000000000
+      internalID: -1677845105422380016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69764f3c528cfe950800000000000000
+      internalID: 6480618453336352662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e78ed0ba0a3ae330800000000000000
+      internalID: 3740866258076076003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_13
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7b21b69fc568c0800000000000000
+      internalID: -4006568047351726322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_14
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492daace8376277c0800000000000000
+      internalID: -4075081218630430060
       vertices: []
       indices: 
       edges: []
