@@ -315,12 +315,12 @@ TextureImporter:
       name: adventurer-hand-combat_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 334
-        width: 18
-        height: 25
+        x: 0
+        y: 333
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: adventurer-hand-combat_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 334
-        width: 21
-        height: 25
+        x: 50
+        y: 333
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: adventurer-hand-combat_2
       rect:
         serializedVersion: 2
-        x: 114
-        y: 334
-        width: 30
-        height: 22
+        x: 100
+        y: 333
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,12 +378,12 @@ TextureImporter:
       name: adventurer-hand-combat_3
       rect:
         serializedVersion: 2
-        x: 166
-        y: 334
-        width: 20
-        height: 23
+        x: 150
+        y: 333
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,12 +399,12 @@ TextureImporter:
       name: adventurer-hand-combat_4
       rect:
         serializedVersion: 2
-        x: 215
-        y: 334
-        width: 18
-        height: 24
+        x: 200
+        y: 333
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: adventurer-hand-combat_5
       rect:
         serializedVersion: 2
-        x: 265
-        y: 334
-        width: 18
-        height: 24
+        x: 250
+        y: 333
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,12 +441,12 @@ TextureImporter:
       name: adventurer-hand-combat_6
       rect:
         serializedVersion: 2
-        x: 311
-        y: 334
-        width: 34
-        height: 22
+        x: 300
+        y: 333
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: adventurer-hand-combat_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 297
-        width: 26
-        height: 23
+        x: 0
+        y: 296
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -483,12 +483,12 @@ TextureImporter:
       name: adventurer-hand-combat_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 297
-        width: 22
-        height: 23
+        x: 50
+        y: 296
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,12 +504,12 @@ TextureImporter:
       name: adventurer-hand-combat_9
       rect:
         serializedVersion: 2
-        x: 115
-        y: 297
-        width: 19
-        height: 21
+        x: 100
+        y: 296
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -525,12 +525,12 @@ TextureImporter:
       name: adventurer-hand-combat_10
       rect:
         serializedVersion: 2
-        x: 166
-        y: 297
-        width: 28
-        height: 24
+        x: 150
+        y: 296
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -546,12 +546,12 @@ TextureImporter:
       name: adventurer-hand-combat_11
       rect:
         serializedVersion: 2
-        x: 216
-        y: 297
-        width: 20
-        height: 24
+        x: 200
+        y: 296
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -567,12 +567,12 @@ TextureImporter:
       name: adventurer-hand-combat_12
       rect:
         serializedVersion: 2
-        x: 266
-        y: 297
-        width: 19
-        height: 24
+        x: 250
+        y: 296
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -588,12 +588,12 @@ TextureImporter:
       name: adventurer-hand-combat_13
       rect:
         serializedVersion: 2
-        x: 313
-        y: 297
-        width: 21
-        height: 25
+        x: 300
+        y: 296
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -609,12 +609,12 @@ TextureImporter:
       name: adventurer-hand-combat_14
       rect:
         serializedVersion: 2
-        x: 15
-        y: 260
-        width: 25
-        height: 22
+        x: 0
+        y: 259
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -630,12 +630,12 @@ TextureImporter:
       name: adventurer-hand-combat_15
       rect:
         serializedVersion: 2
-        x: 65
-        y: 260
-        width: 25
-        height: 22
+        x: 50
+        y: 259
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -651,12 +651,12 @@ TextureImporter:
       name: adventurer-hand-combat_16
       rect:
         serializedVersion: 2
-        x: 104
-        y: 260
-        width: 41
-        height: 21
+        x: 100
+        y: 259
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -672,12 +672,12 @@ TextureImporter:
       name: adventurer-hand-combat_17
       rect:
         serializedVersion: 2
-        x: 167
-        y: 260
-        width: 24
-        height: 20
+        x: 150
+        y: 259
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: adventurer-hand-combat_18
       rect:
         serializedVersion: 2
-        x: 218
-        y: 260
-        width: 16
-        height: 24
+        x: 200
+        y: 259
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -714,12 +714,12 @@ TextureImporter:
       name: adventurer-hand-combat_19
       rect:
         serializedVersion: 2
-        x: 269
-        y: 260
-        width: 15
-        height: 25
+        x: 250
+        y: 259
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -735,12 +735,12 @@ TextureImporter:
       name: adventurer-hand-combat_20
       rect:
         serializedVersion: 2
-        x: 315
-        y: 260
-        width: 19
-        height: 24
+        x: 300
+        y: 259
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -756,12 +756,12 @@ TextureImporter:
       name: adventurer-hand-combat_21
       rect:
         serializedVersion: 2
-        x: 18
-        y: 223
-        width: 17
-        height: 24
+        x: 0
+        y: 222
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -777,12 +777,12 @@ TextureImporter:
       name: adventurer-hand-combat_22
       rect:
         serializedVersion: 2
-        x: 64
-        y: 223
-        width: 30
-        height: 24
+        x: 50
+        y: 222
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -798,12 +798,12 @@ TextureImporter:
       name: adventurer-hand-combat_23
       rect:
         serializedVersion: 2
-        x: 121
-        y: 223
-        width: 22
-        height: 24
+        x: 100
+        y: 222
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -819,12 +819,12 @@ TextureImporter:
       name: adventurer-hand-combat_25
       rect:
         serializedVersion: 2
-        x: 168
-        y: 223
-        width: 12
-        height: 24
+        x: 200
+        y: 222
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -840,12 +840,12 @@ TextureImporter:
       name: adventurer-hand-combat_26
       rect:
         serializedVersion: 2
-        x: 211
-        y: 223
-        width: 34
-        height: 26
+        x: 250
+        y: 222
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -861,12 +861,12 @@ TextureImporter:
       name: adventurer-hand-combat_27
       rect:
         serializedVersion: 2
-        x: 264
-        y: 223
-        width: 21
-        height: 25
+        x: 300
+        y: 222
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -882,12 +882,12 @@ TextureImporter:
       name: adventurer-hand-combat_28
       rect:
         serializedVersion: 2
-        x: 316
-        y: 223
-        width: 15
-        height: 25
+        x: 0
+        y: 185
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -903,12 +903,12 @@ TextureImporter:
       name: adventurer-hand-combat_29
       rect:
         serializedVersion: 2
-        x: 15
-        y: 191
-        width: 19
-        height: 22
+        x: 50
+        y: 185
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -924,12 +924,12 @@ TextureImporter:
       name: adventurer-hand-combat_30
       rect:
         serializedVersion: 2
-        x: 68
-        y: 192
-        width: 15
-        height: 20
+        x: 100
+        y: 185
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -945,12 +945,12 @@ TextureImporter:
       name: adventurer-hand-combat_31
       rect:
         serializedVersion: 2
-        x: 111
-        y: 191
-        width: 25
-        height: 30
+        x: 150
+        y: 185
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -966,12 +966,12 @@ TextureImporter:
       name: adventurer-hand-combat_32
       rect:
         serializedVersion: 2
-        x: 161
-        y: 191
-        width: 25
-        height: 29
+        x: 200
+        y: 185
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -987,12 +987,12 @@ TextureImporter:
       name: adventurer-hand-combat_33
       rect:
         serializedVersion: 2
-        x: 215
-        y: 186
-        width: 18
-        height: 24
+        x: 250
+        y: 185
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: adventurer-hand-combat_34
       rect:
         serializedVersion: 2
-        x: 260
-        y: 189
-        width: 20
-        height: 23
+        x: 300
+        y: 185
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1029,12 +1029,12 @@ TextureImporter:
       name: adventurer-hand-combat_35
       rect:
         serializedVersion: 2
-        x: 304
-        y: 188
-        width: 29
-        height: 18
+        x: 0
+        y: 148
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1050,12 +1050,12 @@ TextureImporter:
       name: adventurer-hand-combat_36
       rect:
         serializedVersion: 2
-        x: 5
-        y: 149
-        width: 24
-        height: 14
+        x: 50
+        y: 148
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1071,12 +1071,12 @@ TextureImporter:
       name: adventurer-hand-combat_37
       rect:
         serializedVersion: 2
-        x: 51
-        y: 149
-        width: 27
-        height: 11
+        x: 100
+        y: 148
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1092,12 +1092,12 @@ TextureImporter:
       name: adventurer-hand-combat_38
       rect:
         serializedVersion: 2
-        x: 104
-        y: 149
-        width: 26
-        height: 12
+        x: 150
+        y: 148
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1113,12 +1113,12 @@ TextureImporter:
       name: adventurer-hand-combat_39
       rect:
         serializedVersion: 2
-        x: 154
-        y: 149
-        width: 29
-        height: 7
+        x: 200
+        y: 148
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1134,12 +1134,12 @@ TextureImporter:
       name: adventurer-hand-combat_40
       rect:
         serializedVersion: 2
-        x: 204
-        y: 149
-        width: 29
-        height: 7
+        x: 250
+        y: 148
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1155,12 +1155,12 @@ TextureImporter:
       name: adventurer-hand-combat_41
       rect:
         serializedVersion: 2
-        x: 253
-        y: 149
-        width: 23
-        height: 14
+        x: 300
+        y: 148
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1176,12 +1176,12 @@ TextureImporter:
       name: adventurer-hand-combat_42
       rect:
         serializedVersion: 2
-        x: 303
-        y: 149
-        width: 21
-        height: 12
+        x: 0
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1197,12 +1197,12 @@ TextureImporter:
       name: adventurer-hand-combat_43
       rect:
         serializedVersion: 2
-        x: 4
-        y: 112
-        width: 26
-        height: 16
+        x: 50
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1218,12 +1218,12 @@ TextureImporter:
       name: adventurer-hand-combat_44
       rect:
         serializedVersion: 2
-        x: 59
-        y: 115
-        width: 21
-        height: 26
+        x: 100
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1239,12 +1239,12 @@ TextureImporter:
       name: adventurer-hand-combat_45
       rect:
         serializedVersion: 2
-        x: 109
-        y: 112
-        width: 24
-        height: 24
+        x: 150
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1260,12 +1260,12 @@ TextureImporter:
       name: adventurer-hand-combat_46
       rect:
         serializedVersion: 2
-        x: 161
-        y: 112
-        width: 22
-        height: 23
+        x: 200
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1281,12 +1281,12 @@ TextureImporter:
       name: adventurer-hand-combat_47
       rect:
         serializedVersion: 2
-        x: 221
-        y: 112
-        width: 17
-        height: 28
+        x: 250
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1302,12 +1302,12 @@ TextureImporter:
       name: adventurer-hand-combat_48
       rect:
         serializedVersion: 2
-        x: 272
-        y: 112
-        width: 14
-        height: 28
+        x: 300
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1323,12 +1323,12 @@ TextureImporter:
       name: adventurer-hand-combat_49
       rect:
         serializedVersion: 2
-        x: 320
-        y: 112
-        width: 15
-        height: 29
+        x: 0
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1344,12 +1344,12 @@ TextureImporter:
       name: adventurer-hand-combat_50
       rect:
         serializedVersion: 2
-        x: 19
-        y: 75
-        width: 18
-        height: 28
+        x: 50
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1365,12 +1365,12 @@ TextureImporter:
       name: adventurer-hand-combat_51
       rect:
         serializedVersion: 2
-        x: 69
-        y: 75
-        width: 16
-        height: 28
+        x: 100
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1386,12 +1386,12 @@ TextureImporter:
       name: adventurer-hand-combat_52
       rect:
         serializedVersion: 2
-        x: 120
-        y: 75
-        width: 16
-        height: 29
+        x: 150
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1407,12 +1407,12 @@ TextureImporter:
       name: adventurer-hand-combat_53
       rect:
         serializedVersion: 2
-        x: 166
-        y: 75
-        width: 19
-        height: 21
+        x: 200
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1428,12 +1428,12 @@ TextureImporter:
       name: adventurer-hand-combat_54
       rect:
         serializedVersion: 2
-        x: 215
-        y: 75
-        width: 20
-        height: 22
+        x: 250
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1449,12 +1449,12 @@ TextureImporter:
       name: adventurer-hand-combat_55
       rect:
         serializedVersion: 2
-        x: 265
-        y: 75
-        width: 20
-        height: 21
+        x: 300
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1470,12 +1470,12 @@ TextureImporter:
       name: adventurer-hand-combat_56
       rect:
         serializedVersion: 2
-        x: 316
-        y: 75
-        width: 19
-        height: 21
+        x: 0
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1491,12 +1491,12 @@ TextureImporter:
       name: adventurer-hand-combat_57
       rect:
         serializedVersion: 2
-        x: 15
-        y: 38
-        width: 20
-        height: 22
+        x: 50
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1512,12 +1512,12 @@ TextureImporter:
       name: adventurer-hand-combat_58
       rect:
         serializedVersion: 2
-        x: 65
-        y: 38
-        width: 20
-        height: 21
+        x: 100
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1533,12 +1533,12 @@ TextureImporter:
       name: adventurer-hand-combat_59
       rect:
         serializedVersion: 2
-        x: 118
-        y: 38
-        width: 26
-        height: 25
+        x: 150
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1554,12 +1554,12 @@ TextureImporter:
       name: adventurer-hand-combat_60
       rect:
         serializedVersion: 2
-        x: 166
-        y: 40
-        width: 26
-        height: 22
+        x: 200
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1575,12 +1575,12 @@ TextureImporter:
       name: adventurer-hand-combat_61
       rect:
         serializedVersion: 2
-        x: 219
-        y: 38
-        width: 21
-        height: 23
+        x: 250
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1596,12 +1596,12 @@ TextureImporter:
       name: adventurer-hand-combat_62
       rect:
         serializedVersion: 2
-        x: 267
-        y: 39
-        width: 26
-        height: 23
+        x: 300
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1617,12 +1617,12 @@ TextureImporter:
       name: adventurer-hand-combat_63
       rect:
         serializedVersion: 2
-        x: 316
-        y: 41
-        width: 26
-        height: 19
+        x: 0
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1638,12 +1638,12 @@ TextureImporter:
       name: adventurer-hand-combat_64
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1
-        width: 23
-        height: 23
+        x: 50
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1659,12 +1659,12 @@ TextureImporter:
       name: adventurer-hand-combat_65
       rect:
         serializedVersion: 2
-        x: 66
-        y: 5
-        width: 21
-        height: 26
+        x: 100
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1680,12 +1680,12 @@ TextureImporter:
       name: adventurer-hand-combat_66
       rect:
         serializedVersion: 2
-        x: 117
-        y: 7
-        width: 20
-        height: 22
+        x: 150
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1701,12 +1701,12 @@ TextureImporter:
       name: adventurer-hand-combat_67
       rect:
         serializedVersion: 2
-        x: 163
-        y: 5
-        width: 25
-        height: 22
+        x: 200
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1722,12 +1722,12 @@ TextureImporter:
       name: adventurer-hand-combat_68
       rect:
         serializedVersion: 2
-        x: 215
-        y: 5
-        width: 22
-        height: 24
+        x: 250
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1743,12 +1743,12 @@ TextureImporter:
       name: adventurer-hand-combat_69
       rect:
         serializedVersion: 2
-        x: 267
-        y: 5
-        width: 19
-        height: 23
+        x: 300
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1761,22 +1761,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-hand-combat_70
+      name: adventurer-hand-combat_24
       rect:
         serializedVersion: 2
-        x: 314
-        y: 5
-        width: 24
-        height: 22
+        x: 150
+        y: 222
+        width: 50
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4c74bc9f49303ce0800000000000000
-      internalID: -1427578067782173618
+      spriteID: 08e6f99032a25bab0800000000000000
+      internalID: -4993038281896661376
       vertices: []
       indices: 
       edges: []

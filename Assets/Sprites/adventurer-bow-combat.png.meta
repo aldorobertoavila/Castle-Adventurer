@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: 8346a18a7857810418259bbda5dd4197
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8066505459069020276
+    second: adventurer-bow-combat_0
+  - first:
+      213: -6755321448604121257
+    second: adventurer-bow-combat_1
+  - first:
+      213: 4038948312905037207
+    second: adventurer-bow-combat_2
+  - first:
+      213: -8755296090568295912
+    second: adventurer-bow-combat_3
+  - first:
+      213: 7074435921673318603
+    second: adventurer-bow-combat_4
+  - first:
+      213: 1471566036107471948
+    second: adventurer-bow-combat_5
+  - first:
+      213: -1558461411986191380
+    second: adventurer-bow-combat_6
+  - first:
+      213: -6307875194167768805
+    second: adventurer-bow-combat_7
+  - first:
+      213: 2218698980656031835
+    second: adventurer-bow-combat_8
+  - first:
+      213: 5521071008193187151
+    second: adventurer-bow-combat_9
+  - first:
+      213: -4547883796926173261
+    second: adventurer-bow-combat_10
+  - first:
+      213: -3979316695747140684
+    second: adventurer-bow-combat_11
+  - first:
+      213: 3603981511851291782
+    second: adventurer-bow-combat_12
+  - first:
+      213: -7784503146938597754
+    second: adventurer-bow-combat_13
+  - first:
+      213: 4072160477455525800
+    second: adventurer-bow-combat_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,10 +147,10 @@ TextureImporter:
       name: adventurer-bow-combat_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 112
-        width: 22
-        height: 26
+        x: 0
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,10 +168,10 @@ TextureImporter:
       name: adventurer-bow-combat_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 112
-        width: 22
-        height: 25
+        x: 50
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +189,10 @@ TextureImporter:
       name: adventurer-bow-combat_2
       rect:
         serializedVersion: 2
-        x: 117
-        y: 112
-        width: 24
-        height: 24
+        x: 100
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +210,10 @@ TextureImporter:
       name: adventurer-bow-combat_3
       rect:
         serializedVersion: 2
-        x: 164
-        y: 112
-        width: 30
-        height: 25
+        x: 150
+        y: 111
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +231,10 @@ TextureImporter:
       name: adventurer-bow-combat_4
       rect:
         serializedVersion: 2
-        x: 14
-        y: 75
-        width: 25
-        height: 26
+        x: 0
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +252,10 @@ TextureImporter:
       name: adventurer-bow-combat_5
       rect:
         serializedVersion: 2
-        x: 65
-        y: 75
-        width: 23
-        height: 25
+        x: 50
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +273,10 @@ TextureImporter:
       name: adventurer-bow-combat_6
       rect:
         serializedVersion: 2
-        x: 114
-        y: 75
-        width: 25
-        height: 26
+        x: 100
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +294,10 @@ TextureImporter:
       name: adventurer-bow-combat_7
       rect:
         serializedVersion: 2
-        x: 161
-        y: 75
-        width: 36
-        height: 26
+        x: 150
+        y: 74
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +315,10 @@ TextureImporter:
       name: adventurer-bow-combat_9
       rect:
         serializedVersion: 2
-        x: 15
-        y: 38
-        width: 29
-        height: 26
+        x: 50
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +336,10 @@ TextureImporter:
       name: adventurer-bow-combat_10
       rect:
         serializedVersion: 2
-        x: 68
-        y: 40
-        width: 23
-        height: 25
+        x: 100
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +357,10 @@ TextureImporter:
       name: adventurer-bow-combat_11
       rect:
         serializedVersion: 2
-        x: 114
-        y: 43
-        width: 30
-        height: 23
+        x: 150
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,10 +378,10 @@ TextureImporter:
       name: adventurer-bow-combat_12
       rect:
         serializedVersion: 2
-        x: 163
-        y: 43
-        width: 26
-        height: 24
+        x: 0
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,10 +399,10 @@ TextureImporter:
       name: adventurer-bow-combat_13
       rect:
         serializedVersion: 2
-        x: 11
-        y: 4
-        width: 27
-        height: 25
+        x: 50
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +420,10 @@ TextureImporter:
       name: adventurer-bow-combat_14
       rect:
         serializedVersion: 2
-        x: 61
-        y: 4
-        width: 37
-        height: 26
+        x: 100
+        y: 0
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,13 +438,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-bow-combat_16
+      name: adventurer-bow-combat_8
       rect:
         serializedVersion: 2
-        x: 110
-        y: 4
-        width: 34
-        height: 26
+        x: 0
+        y: 37
+        width: 50
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,8 +452,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c7ed4996b7a1d20800000000000000
-      internalID: 3250045774500625547
+      spriteID: b58268db7f66ace10800000000000000
+      internalID: 2218698980656031835
       vertices: []
       indices: 
       edges: []
