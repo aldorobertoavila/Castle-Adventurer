@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 750554062}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -307,6 +307,12 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1945592485}
+--- !u!4 &750554062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 742173221560886041, guid: b32fc54b3a5f292459d45eedd498c943,
+    type: 3}
+  m_PrefabInstance: {fileID: 1721317507206766157}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1934595792
 GameObject:
   m_ObjectHideFlags: 0
