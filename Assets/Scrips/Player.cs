@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
     {
         this.motion = ctx.ReadValue<Vector2>();
 
-        animator.SetBool("Moving", !ctx.canceled);
+        animator.SetBool("Walking", !ctx.canceled);
     }
 
     public void QuickAttack(InputAction.CallbackContext ctx)
@@ -68,8 +68,10 @@ public class Player : MonoBehaviour
         this.Move(ctx);
 
         if(ctx.performed && !animator.GetBool("Crouching"))
+        {
             animator.SetBool("Running", true);
-        else if(ctx.canceled)
+            animator.SetBool("Walking", false);
+        } else if(ctx.canceled)
             animator.SetBool("Running", false);
     }
 
@@ -82,6 +84,12 @@ public class Player : MonoBehaviour
     {
         if (ctx.performed && animator.GetBool("Running"))
             animator.SetTrigger("Slide");
+        else if (ctx.canceled) // when trigger has ended
+        {
+            animator.SetBool("Running", false);
+            animator.SetBool("Walking", true);
+        }
+
     }
 
     void Start()
@@ -92,12 +100,14 @@ public class Player : MonoBehaviour
     float GetSpeed()
     {
 
-        if (animator.GetBool("Running"))
-            return this.runningSpeed;
-        else if (animator.GetBool("Crouching"))
+        if (animator.GetBool("Crouching"))
             return this.crouchingSpeed;
-        else
+        else if (animator.GetBool("Running"))
+            return this.runningSpeed;
+        else if (animator.GetBool("Walking"))
             return this.walkingSpeed;
+        else
+            return 0;
     
     }
 
