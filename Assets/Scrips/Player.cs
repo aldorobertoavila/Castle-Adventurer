@@ -7,11 +7,13 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     // Components
-    public Animator animator;
+    private Animator animator;
+    private PlayerInput input;
 
     // Constants
     public float crouchingSpeed = 1.75F;
     public float runningSpeed = 4.5F;
+    public float slidingSpeed = 5.0F;
     public float walkingSpeed = 2.25F;
 
     // Variables
@@ -25,14 +27,15 @@ public class Player : MonoBehaviour
 
     public void Crouch(InputAction.CallbackContext ctx)
     {
-        animator.SetBool("Crouching", !ctx.canceled);
+        if(!animator.GetBool("Running") && !animator.GetBool("Sliding"))
+            animator.SetBool("Crouching", !ctx.canceled);
     }
 
     public void Flip(InputAction.CallbackContext ctx)
     {
         float direction = ctx.ReadValue<float>();
 
-        if (ctx.started)
+        if (ctx.started && !animator.GetBool("Sliding"))
             transform.Rotate(0, this.facing.x != direction ? 180 : 0, 0);
 
         if (!ctx.canceled)
@@ -47,9 +50,12 @@ public class Player : MonoBehaviour
 
     public void Move(InputAction.CallbackContext ctx)
     {
-        this.motion = ctx.ReadValue<Vector2>();
+        if (!animator.GetBool("Sliding"))
+            this.motion = ctx.ReadValue<Vector2>();
 
-        animator.SetBool("Walking", !ctx.canceled);
+        if (!animator.GetBool("Sliding"))
+            animator.SetBool("Walking", !ctx.canceled);
+    
     }
 
     public void QuickAttack(InputAction.CallbackContext ctx)
@@ -65,12 +71,14 @@ public class Player : MonoBehaviour
 
     public void Run(InputAction.CallbackContext ctx)
     {
-        this.Move(ctx);
-
         if(ctx.performed && !animator.GetBool("Crouching"))
         {
             animator.SetBool("Running", true);
             animator.SetBool("Walking", false);
+
+            if (!animator.GetBool("Sliding"))
+                this.motion = ctx.ReadValue<Vector2>();
+
         } else if(ctx.canceled)
             animator.SetBool("Running", false);
     }
@@ -82,12 +90,13 @@ public class Player : MonoBehaviour
 
     public void Slide(InputAction.CallbackContext ctx)
     {
+
         if (ctx.performed && animator.GetBool("Running"))
-            animator.SetTrigger("Slide");
-        else if (ctx.canceled) // when trigger has ended
         {
+            animator.SetBool("Sliding", true);
             animator.SetBool("Running", false);
-            animator.SetBool("Walking", true);
+            animator.SetBool("Walking", false);
+            animator.SetInteger("Slide Timer", 24);
         }
 
     }
@@ -95,6 +104,9 @@ public class Player : MonoBehaviour
     void Start()
     {
         this.facing = new Vector2(1, 0);
+
+        this.animator = this.GetComponent<Animator>();
+        this.input = this.GetComponent<PlayerInput>();
     }
 
     float GetSpeed()
@@ -104,6 +116,8 @@ public class Player : MonoBehaviour
             return this.crouchingSpeed;
         else if (animator.GetBool("Running"))
             return this.runningSpeed;
+        else if (animator.GetBool("Sliding"))
+            return this.slidingSpeed;
         else if (animator.GetBool("Walking"))
             return this.walkingSpeed;
         else
@@ -114,6 +128,15 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         transform.Translate(this.motion * Time.fixedDeltaTime * this.GetSpeed(), Space.World);
+
+        int slideTimer = animator.GetInteger("Slide Timer");
+
+        if (animator.GetBool("Sliding"))
+        {
+            animator.SetInteger("Slide Timer", --slideTimer);
+            animator.SetBool("Sliding", slideTimer > 0);
+        }
+
     }
 
 }
